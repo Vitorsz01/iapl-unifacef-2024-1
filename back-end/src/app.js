@@ -28,7 +28,7 @@ app.use("/", indexRouter);
 //app.use('/cars', usersRouter);
 
 // MIDDLEWARE DE AUTENTICAÇÃO
-import auth from './middleware/auth.js'
+import auth from './middleware/auth.jwt.js'
 app.use(auth)
 
 /*************************************************
